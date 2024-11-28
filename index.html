@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home - TipToe Soles</title>
+    <link rel="icon" href="icons/home-solid.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Welcome to TipToe Soles - Affordable footwear for everyone.">
+    <meta name="keywords" content="TipToe Soles, Home, Shoes, Affordable Footwear">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="main-header">
+        <a href="index.html" class="logo">
+            <img src="images/icon-black.png" alt="TipToe Soles Logo">
+        </a>
+        <button id="nav-button" class="nav-button" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="main-nav" class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="home-content">
+        <div id="home-carousel">
+            <div class="slide">
+                <img src="images/banner1.jpg" alt="Comfort Shoes Collection">
+            </div>
+            <div class="slide">
+                <img src="images/banner2.jpg" alt="Daily Wear Shoes Collection">
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/casual.jpg" alt="Casual Shoes">
+            <div class="card-content">
+                <h2>Casual Shoes</h2>
+                <p>Stylish and comfortable casual footwear for everyday wear.</p>
+                <a href="#" class="card-button">Shop Now</a>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <nav class="footer-nav">
+            <a href="returns.html">Return Policies</a>
+            <a href="exchange.html">Exchange Policies</a>
+            <a href="delivery.html">Delivery Policies</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
+Contact Page (HTML)
+This includes the form and Google Maps embed, aligned with the sitemap.
+
+html
+Copy code
+<main class="contact-content">
+    <section>
+        <h1>Contact Us</h1>
+        <iframe src="..." title="Our Location"></iframe>
+    </section>
+    <section>
+        <form id="contact-form" action="process.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
